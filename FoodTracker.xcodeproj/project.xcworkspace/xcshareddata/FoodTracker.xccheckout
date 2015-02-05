@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5C5637BE-1FBD-48B4-9C82-25F246ADC603</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FoodTracker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A8D10655905962D4240802F14EC8A3D89E21B7F</key>
+		<string>https://github.com/ulyssaelaine/AgeOfLaika.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FoodTracker/FoodTracker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A8D10655905962D4240802F14EC8A3D89E21B7F</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ulyssaelaine/AgeOfLaika.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A8D10655905962D4240802F14EC8A3D89E21B7F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A8D10655905962D4240802F14EC8A3D89E21B7F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Swift%20Training</string>
+		</dict>
+	</array>
+</dict>
+</plist>
