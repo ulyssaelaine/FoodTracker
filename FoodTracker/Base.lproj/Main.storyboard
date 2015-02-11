@@ -18,8 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="tuc-2P-GbL">
-                                <rect key="frame" x="0.0" y="28" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="i8Q-hb-ITF"/>
+                                    <constraint firstAttribute="height" constant="600" id="qj3-RU-GGF"/>
+                                </constraints>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="gfc-xX-47G">
                                         <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
@@ -37,10 +41,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="tuc-2P-GbL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-36" id="20a-8h-bKM"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tuc-2P-GbL" secondAttribute="bottom" constant="-28" id="9rB-zA-yaI"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tuc-2P-GbL" secondAttribute="trailing" constant="-16" id="jDh-s5-Ut9"/>
-                            <constraint firstItem="tuc-2P-GbL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="yls-Oq-AgZ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tuc-2P-GbL" secondAttribute="bottom" id="7pB-4L-1fg"/>
+                            <constraint firstAttribute="centerX" secondItem="tuc-2P-GbL" secondAttribute="centerX" id="8bX-AM-z8v"/>
+                            <constraint firstItem="tuc-2P-GbL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="9Wr-Db-0TV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tuc-2P-GbL" secondAttribute="trailing" constant="-16" id="Whs-x9-RXJ"/>
+                            <constraint firstItem="tuc-2P-GbL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="c3h-ET-h13"/>
+                            <constraint firstItem="tuc-2P-GbL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="jwa-HD-jpL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n9c-Kg-aUL"/>
